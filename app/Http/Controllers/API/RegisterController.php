@@ -41,7 +41,7 @@ class RegisterController extends BaseController
  *        )
  *     )
  * )
- */
+ */   
     public function register(Request $request)
     {
         $this->validate($request, [
