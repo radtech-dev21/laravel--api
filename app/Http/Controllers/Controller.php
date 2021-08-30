@@ -8,10 +8,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
 /**
- * @OA\Info(
- *    title="Your super  ApplicationAPI",
- *    version="1.0.0",
- * )
+ * @OA\Info(title="My First API", version="0.1")
  */
 class Controller extends BaseController
 {
